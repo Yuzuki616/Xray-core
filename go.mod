@@ -7,7 +7,6 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
 	github.com/google/go-cmp v0.5.8
-	github.com/gorilla/websocket v1.5.0
 	github.com/lucas-clemente/quic-go v0.27.1
 	github.com/marten-seemann/qtls-go1-16 v0.1.5
 	github.com/marten-seemann/qtls-go1-17 v0.1.1
@@ -33,6 +32,7 @@ require (
 )
 
 require (
+	github.com/Yuzuki616/websocket v1.5.3-0.20220602182637-d18b2ea8eb1f // indirect
 	github.com/cheekybits/genny v1.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140 // indirect
@@ -54,5 +54,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
-
-replace github.com/gorilla/websocket v1.5.0 => github.com/Yuzuki616/websocket v1.5.3-0.20220602182637-d18b2ea8eb1f
