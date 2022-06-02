@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/Yuzuki616/xray-core/common"
+	. "github.com/Yuzuki616/xray-core/common/buf"
+	"github.com/Yuzuki616/xray-core/transport/pipe"
 )
 
 func TestBytesReaderWriteTo(t *testing.T) {

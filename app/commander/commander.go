@@ -7,10 +7,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/signal/done"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
+	"github.com/Yuzuki616/xray-core/common"
+	"github.com/Yuzuki616/xray-core/common/signal/done"
+	core "github.com/Yuzuki616/xray-core/core"
+	"github.com/Yuzuki616/xray-core/features/outbound"
 	"google.golang.org/grpc"
 )
 

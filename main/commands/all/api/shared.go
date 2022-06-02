@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/Yuzuki616/xray-core/common/buf"
+	"github.com/Yuzuki616/xray-core/main/commands/base"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 )

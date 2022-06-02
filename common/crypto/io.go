@@ -4,7 +4,7 @@ import (
 	"crypto/cipher"
 	"io"
 
-	"github.com/xtls/xray-core/common/buf"
+	"github.com/Yuzuki616/xray-core/common/buf"
 )
 
 type CryptionReader struct {

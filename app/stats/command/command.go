@@ -7,11 +7,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/strmatcher"
-	"github.com/xtls/xray-core/core"
-	feature_stats "github.com/xtls/xray-core/features/stats"
+	"github.com/Yuzuki616/xray-core/app/stats"
+	"github.com/Yuzuki616/xray-core/common"
+	"github.com/Yuzuki616/xray-core/common/strmatcher"
+	"github.com/Yuzuki616/xray-core/core"
+	feature_stats "github.com/Yuzuki616/xray-core/features/stats"
 	grpc "google.golang.org/grpc"
 )
 

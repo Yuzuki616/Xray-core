@@ -8,8 +8,8 @@ import (
 	context "context"
 	reflect "reflect"
 
+	outbound "github.com/Yuzuki616/xray-core/features/outbound"
 	gomock "github.com/golang/mock/gomock"
-	outbound "github.com/xtls/xray-core/features/outbound"
 )
 
 // OutboundManager is a mock of Manager interface

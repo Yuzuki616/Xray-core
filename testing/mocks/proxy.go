@@ -8,12 +8,12 @@ import (
 	context "context"
 	reflect "reflect"
 
+	net "github.com/Yuzuki616/xray-core/common/net"
+	routing "github.com/Yuzuki616/xray-core/features/routing"
+	transport "github.com/Yuzuki616/xray-core/transport"
+	internet "github.com/Yuzuki616/xray-core/transport/internet"
+	"github.com/Yuzuki616/xray-core/transport/internet/stat"
 	gomock "github.com/golang/mock/gomock"
-	net "github.com/xtls/xray-core/common/net"
-	routing "github.com/xtls/xray-core/features/routing"
-	transport "github.com/xtls/xray-core/transport"
-	internet "github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
 )
 
 // ProxyInbound is a mock of Inbound interface

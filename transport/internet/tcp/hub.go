@@ -6,14 +6,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Yuzuki616/xray-core/common"
+	"github.com/Yuzuki616/xray-core/common/net"
+	"github.com/Yuzuki616/xray-core/common/session"
+	"github.com/Yuzuki616/xray-core/transport/internet"
+	"github.com/Yuzuki616/xray-core/transport/internet/stat"
+	"github.com/Yuzuki616/xray-core/transport/internet/tls"
+	"github.com/Yuzuki616/xray-core/transport/internet/xtls"
 	goxtls "github.com/xtls/go"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/xtls"
 )
 
 // Listener is an internet.Listener that listens for TCP connections.

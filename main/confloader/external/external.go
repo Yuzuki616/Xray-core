@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/platform/ctlcmd"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/Yuzuki616/xray-core/common/buf"
+	"github.com/Yuzuki616/xray-core/common/platform/ctlcmd"
+	"github.com/Yuzuki616/xray-core/main/confloader"
 )
 
 func ConfigLoader(arg string) (out io.Reader, err error) {

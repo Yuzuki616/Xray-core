@@ -8,9 +8,9 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/Yuzuki616/xray-core/common/net"
+	"github.com/Yuzuki616/xray-core/common/session"
 	"github.com/pires/go-proxyproto"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
 )
 
 var effectiveListener = DefaultListener{}

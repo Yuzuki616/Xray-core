@@ -1,6 +1,6 @@
 package commander
 
-import "github.com/xtls/xray-core/common/errors"
+import "github.com/Yuzuki616/xray-core/common/errors"
 
 type errPathObjHolder struct{}
 

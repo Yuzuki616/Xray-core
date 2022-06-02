@@ -1,9 +1,9 @@
 package conf
 
 import (
+	"github.com/Yuzuki616/xray-core/common/net"
+	"github.com/Yuzuki616/xray-core/proxy/dns"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/proxy/dns"
 )
 
 type DNSOutboundConfig struct {

@@ -5,10 +5,10 @@ package conf
 import (
 	"strings"
 
+	"github.com/Yuzuki616/xray-core/common/protocol"
+	"github.com/Yuzuki616/xray-core/common/serial"
+	"github.com/Yuzuki616/xray-core/proxy/shadowsocks"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
 )
 
 func cipherFromString(c string) shadowsocks.CipherType {

@@ -3,8 +3,8 @@ package extension
 import (
 	"context"
 
+	"github.com/Yuzuki616/xray-core/features"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/features"
 )
 
 type Observatory interface {

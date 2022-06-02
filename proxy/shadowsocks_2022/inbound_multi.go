@@ -6,6 +6,15 @@ import (
 	"context"
 	"encoding/base64"
 
+	"github.com/Yuzuki616/xray-core/common"
+	"github.com/Yuzuki616/xray-core/common/buf"
+	"github.com/Yuzuki616/xray-core/common/log"
+	"github.com/Yuzuki616/xray-core/common/net"
+	"github.com/Yuzuki616/xray-core/common/protocol"
+	"github.com/Yuzuki616/xray-core/common/session"
+	"github.com/Yuzuki616/xray-core/common/uuid"
+	"github.com/Yuzuki616/xray-core/features/routing"
+	"github.com/Yuzuki616/xray-core/transport/internet/stat"
 	"github.com/sagernet/sing-shadowsocks"
 	"github.com/sagernet/sing-shadowsocks/shadowaead_2022"
 	B "github.com/sagernet/sing/common/buf"
@@ -13,15 +22,6 @@ import (
 	E "github.com/sagernet/sing/common/exceptions"
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet/stat"
 )
 
 func init() {

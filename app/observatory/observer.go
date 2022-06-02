@@ -9,16 +9,16 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Yuzuki616/xray-core/common"
+	v2net "github.com/Yuzuki616/xray-core/common/net"
+	"github.com/Yuzuki616/xray-core/common/session"
+	"github.com/Yuzuki616/xray-core/common/signal/done"
+	"github.com/Yuzuki616/xray-core/common/task"
+	"github.com/Yuzuki616/xray-core/core"
+	"github.com/Yuzuki616/xray-core/features/extension"
+	"github.com/Yuzuki616/xray-core/features/outbound"
+	"github.com/Yuzuki616/xray-core/transport/internet/tagged"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/common"
-	v2net "github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal/done"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/extension"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/transport/internet/tagged"
 )
 
 type Observer struct {

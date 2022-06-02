@@ -1,4 +1,4 @@
-module github.com/xtls/xray-core
+module github.com/Yuzuki616/xray-core
 
 go 1.18
 
@@ -54,3 +54,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
+
+replace github.com/gorilla/websocket v1.5.0 => github.com/Yuzuki616/websocket v1.5.3-0.20220602182637-d18b2ea8eb1f

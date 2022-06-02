@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"strings"
 
+	"github.com/Yuzuki616/xray-core/common/protocol"
+	"github.com/Yuzuki616/xray-core/common/serial"
+	"github.com/Yuzuki616/xray-core/proxy/socks"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/socks"
 )
 
 type SocksAccount struct {

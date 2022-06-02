@@ -3,10 +3,10 @@ package conf
 import (
 	"encoding/json"
 
+	"github.com/Yuzuki616/xray-core/common/protocol"
+	"github.com/Yuzuki616/xray-core/common/serial"
+	"github.com/Yuzuki616/xray-core/proxy/http"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/http"
 )
 
 type HTTPAccount struct {

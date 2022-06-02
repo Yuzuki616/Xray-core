@@ -1,6 +1,6 @@
 package features
 
-import "github.com/xtls/xray-core/common"
+import "github.com/Yuzuki616/xray-core/common"
 
 //go:generate go run github.com/xtls/xray-core/common/errors/errorgen
 

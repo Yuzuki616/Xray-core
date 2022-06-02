@@ -9,13 +9,13 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Yuzuki616/xray-core/common"
+	"github.com/Yuzuki616/xray-core/common/net"
+	"github.com/Yuzuki616/xray-core/transport/internet"
+	"github.com/Yuzuki616/xray-core/transport/internet/stat"
+	"github.com/Yuzuki616/xray-core/transport/internet/tls"
+	"github.com/Yuzuki616/xray-core/transport/internet/xtls"
 	goxtls "github.com/xtls/go"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/xtls"
 	"golang.org/x/sys/unix"
 )
 

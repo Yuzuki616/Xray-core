@@ -3,9 +3,9 @@ package tls
 import (
 	"crypto/tls"
 
+	"github.com/Yuzuki616/xray-core/common/buf"
+	"github.com/Yuzuki616/xray-core/common/net"
 	utls "github.com/refraction-networking/utls"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
 )
 
 //go:generate go run github.com/xtls/xray-core/common/errors/errorgen

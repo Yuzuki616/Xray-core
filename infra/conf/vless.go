@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"syscall"
 
+	"github.com/Yuzuki616/xray-core/common/net"
+	"github.com/Yuzuki616/xray-core/common/protocol"
+	"github.com/Yuzuki616/xray-core/common/serial"
+	"github.com/Yuzuki616/xray-core/common/uuid"
+	"github.com/Yuzuki616/xray-core/proxy/vless"
+	"github.com/Yuzuki616/xray-core/proxy/vless/inbound"
+	"github.com/Yuzuki616/xray-core/proxy/vless/outbound"
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/inbound"
-	"github.com/xtls/xray-core/proxy/vless/outbound"
 )
 
 type VLessInboundFallback struct {

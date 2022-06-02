@@ -3,9 +3,9 @@ package uuid_test
 import (
 	"testing"
 
+	"github.com/Yuzuki616/xray-core/common"
+	. "github.com/Yuzuki616/xray-core/common/uuid"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/uuid"
 )
 
 func TestParseBytes(t *testing.T) {

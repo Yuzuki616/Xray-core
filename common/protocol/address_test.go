@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/Yuzuki616/xray-core/common"
+	"github.com/Yuzuki616/xray-core/common/buf"
+	"github.com/Yuzuki616/xray-core/common/net"
+	. "github.com/Yuzuki616/xray-core/common/protocol"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	. "github.com/xtls/xray-core/common/protocol"
 )
 
 func TestAddressReading(t *testing.T) {

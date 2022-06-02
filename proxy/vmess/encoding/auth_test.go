@@ -4,9 +4,9 @@ import (
 	"crypto/rand"
 	"testing"
 
+	"github.com/Yuzuki616/xray-core/common"
+	. "github.com/Yuzuki616/xray-core/proxy/vmess/encoding"
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/proxy/vmess/encoding"
 )
 
 func TestFnvAuth(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"context"
 	"math/rand"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/signal"
+	"github.com/Yuzuki616/xray-core/common/errors"
+	"github.com/Yuzuki616/xray-core/common/net"
+	"github.com/Yuzuki616/xray-core/common/protocol"
+	"github.com/Yuzuki616/xray-core/common/signal"
 )
 
 // ID of a session.
